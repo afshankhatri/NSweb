@@ -1,0 +1,26 @@
+@keyframes border-flow {
+  0%, 100% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+}
+
+@keyframes light-patch {
+  0% {
+    transform: translateX(-100%) rotate(45deg);
+  }
+  100% {
+    transform: translateX(100%) rotate(45deg);
+  }
+}
+
+.animate-border-flow {
+  animation: border-flow 8s ease infinite;
+  background-size: 300% 300%;
+}
+
+.animate-light-patch {
+  animation: light-patch 3s ease-in-out infinite;
+}
