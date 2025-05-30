@@ -134,4 +134,3 @@ To run this website locally:
 git clone https://github.com/yourusername/nilax-portfolio.git
 cd nilax-portfolio
 npm install
-npm start
